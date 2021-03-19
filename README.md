@@ -1,5 +1,5 @@
 # PermaKey
-This is the code repository complementing the following paper. 
+This is the code repository complementing the ICLR 2021 paper. 
 
 **Unsupervised Object Keypoint Learning using Local Spatial Predictability**  
 Anand Gopalakrishnan, Sjoerd van Steenkiste, J&uuml;rgen Schmidhuber
