@@ -6,7 +6,7 @@ Anand Gopalakrishnan, Sjoerd van Steenkiste, J&uuml;rgen Schmidhuber
 https://arxiv.org/abs/2011.12930
 
 ## Dependencies:
-Please install all the dependencies listed in the `requirements.txt` file. Additionally, please install the latest version of DeepMind's graph-nets toolbox using `pip install git+git://github.com/deepmind/graph_nets.git` 
+Requires Python 3.6 or later. Please install all the dependencies listed in the `requirements.txt` file. Additionally, please install the latest version of DeepMind's graph-nets toolbox using `pip install git+git://github.com/deepmind/graph_nets.git` 
 
 ## Dataset:
 The dataset used for the unsupervised learning of object keypoints can be found [here](https://drive.google.com/file/d/1acothwSMI7ObOyZt3GfoMmrkjuTgHNT8/view?usp=sharing).
