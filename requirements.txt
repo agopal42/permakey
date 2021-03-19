@@ -9,7 +9,6 @@ gym==0.15.3
 atari-py==0.2.6
 trfl==1.1.0
 tf-agents==0.3.0
-graph-nets==1.1.0
 h5py==2.10.0
 sacred==0.8.1
 horovod==0.19.5
