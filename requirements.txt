@@ -1,0 +1,15 @@
+numpy==1.19.5
+scikit-image==0.17.2
+matplotlib==3.1.1
+tensorflow==2.3.0
+tensorflow-probability==0.11.0
+dm-sonnet==2.0.0
+baselines==0.1.5
+gym==0.15.3
+atari-py==0.2.6
+trfl==1.1.0
+tf-agents==0.3.0
+graph-nets==1.1.0
+h5py==2.10.0
+sacred==0.8.1
+horovod==0.19.5
