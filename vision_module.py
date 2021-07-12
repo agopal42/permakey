@@ -347,7 +347,7 @@ class Pnet(tf.keras.Model):
         self.relu_1 = tf.keras.layers.ReLU()
 
         self.conv_2 = tf.keras.layers.Conv2D(filters=64, kernel_size=3,
-                                             strides=1, padding="same")
+                                             strides=2, padding="same")
         self.bn_2 = tf.keras.layers.BatchNormalization()
         self.relu_2 = tf.keras.layers.ReLU()
 

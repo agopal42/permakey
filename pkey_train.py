@@ -30,7 +30,7 @@ def config():
     latent_dim_size = 32
     patch_sizes = (2, 2)
     num_keypoints = 7
-    gauss_std = 0.1
+    gauss_std = 0.12
     max_patience = 10  # early-stopping param
 
     # Architecture

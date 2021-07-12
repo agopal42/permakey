@@ -125,7 +125,7 @@ def lsp_loss(lsp_nets, enc_activations, patch_sizes, img_size, lsp_layers,
         errors = tf.math.square(centers - center_preds)
         loc_sp_loss = loc_sp_loss + tf.reduce_mean(errors)
 
-        errors_2d = tf.math.sqrt(tf.reduce_mean(errors, axis=2))  # RMSE
+        errors_2d = tf.reduce_mean(errors, axis=2)
         # normalize error maps w.r.t ground-truth values
         patch_gt_2d = tf.reduce_mean(centers, axis=2)
         eps = tf.constant(10**-3, dtype=tf.float32)
